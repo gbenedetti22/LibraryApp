@@ -17,7 +17,7 @@ function insert_user(e){
     const user_surname=document.querySelector(".user-surname");
     const date=document.querySelector(".date");
 
-    if(user_name == null && user_surname == null && date.value === ""){
+    if(user_name.value === "" && user_surname.value === "" && date.value === ""){
         alert("Errore nell inserimento dell utente!");
         return;
     }
