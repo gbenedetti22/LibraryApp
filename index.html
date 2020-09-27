@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LibraryApp</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+<body>
+<header>Welcome to the Library!</header>
+<form>
+    <table class="library-table">
+        <tr class="column-header">
+            <th>Libro</th>
+            <th>Autore</th>
+            <th>Data di uscita</th>
+            <th>Noleggiatore</th>
+        </tr>
+        <tr class="data-table">
+            <th>Harry Potter</th>
+            <th>J.K. Rowling</th>
+            <th>20/06/1997</th>
+            <th class="book-user">Inserisci_1</th>
+        </tr>
+        <tr class="data-table">
+            <th>Il Signore degli Anelli</th>
+            <th>Tolkien</th>
+            <th>29/07/1954</th>
+            <th class="book-user">Inserisci_2</th>
+        </tr>
+        <tr class="data-table">
+            <th>Harry Potter 2</th>
+            <th>J.K. Rowling</th>
+            <th>02/07/1998</th>
+            <th class="book-user">Inserisci_3</th>
+        </tr>
+        <tr class="data-table">
+            <th>Harry Potter e la camera dei segreti</th>
+            <th>J.K. Rowling</th>
+            <th>02/07/1998</th>
+            <th class="book-user">Inserisci_4</th>
+        </tr>
+        <tr class="data-table">
+            <th>Percy Jackson e gli Dei dell Olimpo</th>
+            <th>Rick Riordan</th>
+            <th>28/06/2005</th>
+            <th class="book-user">Inserisci_5</th>
+        </tr>
+        <tr class="data-table">
+            <th>Lo strano caso del dr. Jackyll e mr. Hyde</th>
+            <th>Robert Louis Stevenson</th>
+            <th>1886</th>
+            <th class="book-user">Inserisci_6</th>
+        </tr>
+        <tr class="data-table">
+            <th>Frankenstein</th>
+            <th>Mary Shelley</th>
+            <th>1823</th>
+            <th class="book-user">Inserisci_7</th>
+        </tr>
+        <tr class="data-table">
+            <th>Guerra e pace</th>
+            <th>Lev Tolstoj</th>
+            <th>1891</th>
+            <th class="book-user">Inserisci_8</th>
+        </tr>
+        <tr class="data-table">
+            <th>Lo Hobbit</th>
+            <th>J.R. Tolkien</th>
+            <th>21/12/1937</th>
+            <th class="book-user">Inserisci_9</th>
+        </tr>
+
+    </table>
+    <div class="user-form">
+        <input type="text" placeholder="Nome" class="user-name">
+        <input type="text" placeholder="Cognome" class="user-surname">
+        <label> deve restituire il libro entro il:</label>
+        <input type="date" class="date">
+        <button type="submit" class="btn-add">Aggiungi</button>
+    </div>
+</form>
+<script src="app.js"></script>
+</body>
+</html>
