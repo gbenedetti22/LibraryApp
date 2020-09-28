@@ -21,7 +21,7 @@ body{
 table{
     background: white;
     background-size: 50px;
-    width: 800px;
+    width: auto;
     border-collapse: collapse;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
@@ -52,7 +52,7 @@ form input, form button{
     font-size:1rem;
     border:none;
     margin-left: 20px;
-    margin-top: 90px;
+    margin-top: 55px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
@@ -66,4 +66,19 @@ label{
 .book-user{
     cursor: pointer;
     color: #0b4bc7;
+}
+.book-user:hover{
+    color: rgb(0, 17, 255);
+    font-weight: bold;
+}
+.filter-input{
+    background-image: url("./icons/search.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+    padding: 12px 12px 12px 40px;
 }
