@@ -61,7 +61,10 @@ label{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
-
+.user-form{
+    color: white;
+    font-size: 22px;
+}
 .book-user{
     cursor: pointer;
     text-align: center;
