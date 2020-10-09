@@ -10,6 +10,23 @@
 <body>
 <header>Welcome to the Library!</header>
 <form>
+    <div class="dialog">
+        <div class="dialog-content">
+            <div class="dialog-header">
+                <span class="close">&times;</span>
+                <h2>Modifica o Elimina</h2>
+            </div>
+            <div class="dialog-body">
+                <input type="text" placeholder="Cognome" class="dialog-surname">
+                <input type="text" placeholder="Nome" class="dialog-name"><br><br>
+            </div>
+            <div class="dialog-footer">
+                <button type="submit" class="dialog-btn-modify">Modifica</button>
+                <button type="submit" class="dialog-btn-delete" style="background-color: red; color: white;">Elimina</button>
+            </div>
+        </div>
+    </div>
+    <label class="money-label">Hai guadagnato: <text id="money">0</text> euro</label><br>
     <input type="text" class="filter-input" placeholder="Search...">
     <table class="library-table">
         <tr class="column-header">
@@ -22,55 +39,55 @@
             <th>Harry Potter</th>
             <th>J.K. Rowling</th>
             <th>20/06/1997</th>
-            <th class="book-user">Inserisci_1</th>
+            <th class="book-user">+</th>
         </tr>
         <tr class="data-table">
             <th>Il Signore degli Anelli</th>
             <th>Tolkien</th>
             <th>29/07/1954</th>
-            <th class="book-user">Inserisci_2</th>
+            <th class="book-user">+</th>
         </tr>
         <tr class="data-table">
             <th>Harry Potter 2</th>
             <th>J.K. Rowling</th>
             <th>02/07/1998</th>
-            <th class="book-user">Inserisci_3</th>
+            <th class="book-user">+</th>
         </tr>
         <tr class="data-table">
             <th>Harry Potter e la camera dei segreti</th>
             <th>J.K. Rowling</th>
             <th>02/07/1998</th>
-            <th class="book-user">Inserisci_4</th>
+            <th class="book-user">+</th>
         </tr>
         <tr class="data-table">
             <th>Percy Jackson e gli Dei dell Olimpo</th>
             <th>Rick Riordan</th>
             <th>28/06/2005</th>
-            <th class="book-user">Inserisci_5</th>
+            <th class="book-user">+</th>
         </tr>
         <tr class="data-table">
             <th>Lo strano caso del dr. Jackyll e mr. Hyde</th>
             <th>Robert Louis Stevenson</th>
             <th>1886</th>
-            <th class="book-user">Inserisci_6</th>
+            <th class="book-user">+</th>
         </tr>
         <tr class="data-table">
             <th>Frankenstein</th>
             <th>Mary Shelley</th>
             <th>1823</th>
-            <th class="book-user">Inserisci_7</th>
+            <th class="book-user">+</th>
         </tr>
         <tr class="data-table">
             <th>Guerra e pace</th>
             <th>Lev Tolstoj</th>
             <th>1891</th>
-            <th class="book-user">Inserisci_8</th>
+            <th class="book-user">+</th>
         </tr>
         <tr class="data-table">
             <th>Lo Hobbit</th>
             <th>J.R. Tolkien</th>
             <th>21/12/1937</th>
-            <th class="book-user">Inserisci_9</th>
+            <th class="book-user">+</th>
         </tr>
 
     </table>
